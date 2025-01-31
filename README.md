@@ -128,3 +128,16 @@ pip install -r requirements.txt
 ## **Conclusion**
 
 This solution provides an efficient, accessible method to detect fake narratives in both videos and news articles. By leveraging **standard RGB video** and **text input**, it makes deepfake detection and fake news
+
+## **References**
+### DeepFake Detection with Convolutional Neural Networks
+   A. R. Rossler, D. Cozzolino, L. Verdoliva, et al., ICCV, 2019.
+[Link to paper](https://arxiv.org/abs/2304.03698)
+
+### Real-Time Facial Landmark Detection for DeepFake Detection
+   V. Zakharchenko, M. D. L. Aris, L. Saenko, IEEE Transactions on Image Processing, 2020.
+[Link to paper](https://ieeexplore.ieee.org/document/10288758)
+
+### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+   J. Devlin, M. Chang, K. Lee, et al., NAACL-HLT 2019.
+[Link to paper](https://arxiv.org/abs/1810.04805)
