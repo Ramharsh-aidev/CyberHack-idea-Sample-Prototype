@@ -106,38 +106,77 @@ The prototype consists of two core modules: **video analysis** for deepfake dete
 
 ## **Installation Instructions**
 
+To get started with the project, follow these steps:
+
 ### **1. Clone the Repository**
+
+Open a terminal and clone the project repository:
 
 ```bash
 git clone https://github.com/Ramharsh-aidev/CyberHack-idea-Sample-Prototype.git
 cd CyberHack-idea-Sample-Prototype
 ```
 
-### **2. Install Dependencies**
+### **2. Set up Python Environment**
 
-Make sure you have **Python 3.x** installed. Install the necessary libraries using the following command:
+Make sure you have **Python 3.x** installed. We recommend setting up a **virtual environment** for easy dependency management.
+
+#### Create a Virtual Environment (optional but recommended):
+```bash
+python -m venv myenv
+```
+
+#### Activate the Virtual Environment:
+- **Windows**:
+  ```bash
+  .\myenv\Scripts\activate
+  ```
+- **macOS/Linux**:
+  ```bash
+  source myenv/bin/activate
+  ```
+
+### **3. Install Dependencies**
+
+Now install the required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3. Run the Prototype**
+This will install the necessary libraries listed in the `requirements.txt` file.
+
+### **4. Run the Prototype**
+
+Once the dependencies are installed, you can run the video processing and text analysis scripts.
+
+To process a video and detect deepfakes based on micro-expressions and biophysical anomalies, run:
+
+```bash
+python main.py
+```
+
+To analyze text (e.g., news articles) for fake news detection, run the respective script for text analysis (e.g., `fake_news_detection.py`).
 
 ---
 
 ## **Conclusion**
 
-This solution provides an efficient, accessible method to detect fake narratives in both videos and news articles. By leveraging **standard RGB video** and **text input**, it makes deepfake detection and fake news
+This solution provides an efficient, accessible method to detect fake narratives in both videos and news articles. By leveraging **standard RGB video** and **text input**, it makes deepfake detection and fake news analysis more feasible without the need for specialized hardware. The approach is scalable, and you can apply it to a wide range of media sources to help fight misinformation.
+
+---
 
 ## **References**
-### DeepFake Detection with Convolutional Neural Networks
-   A. R. Rossler, D. Cozzolino, L. Verdoliva, et al., ICCV, 2019.
-[Link to paper](https://arxiv.org/abs/2304.03698)
 
-### Real-Time Facial Landmark Detection for DeepFake Detection
-   V. Zakharchenko, M. D. L. Aris, L. Saenko, IEEE Transactions on Image Processing, 2020.
-[Link to paper](https://ieeexplore.ieee.org/document/10288758)
+1. **DeepFake Detection with Convolutional Neural Networks**  
+   A. R. Rossler, D. Cozzolino, L. Verdoliva, et al., ICCV, 2019.  
+   [Link to paper](https://arxiv.org/abs/2304.03698)
 
-### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
-   J. Devlin, M. Chang, K. Lee, et al., NAACL-HLT 2019.
-[Link to paper](https://arxiv.org/abs/1810.04805)
+2. **Real-Time Facial Landmark Detection for DeepFake Detection**  
+   V. Zakharchenko, M. D. L. Aris, L. Saenko, IEEE Transactions on Image Processing, 2020.  
+   [Link to paper](https://ieeexplore.ieee.org/document/10288758)
+
+3. **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**  
+   J. Devlin, M. Chang, K. Lee, et al., NAACL-HLT 2019.  
+   [Link to paper](https://arxiv.org/abs/1810.04805)
+
