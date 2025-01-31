@@ -1,0 +1,1 @@
+You have to add your own sample videos in the sample_video folder
